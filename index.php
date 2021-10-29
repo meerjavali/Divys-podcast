@@ -18,9 +18,8 @@
 	
 <body>
 <center>
-    <i>Suno Divys podcasts dilse...<i>
+    <h2><i>Suno Divys podcasts dilse...<i></h2>
     <div class="container">
-	<br><br>
 	<div class="card" style="width: 18rem;">
 		<img src="halfgf.jpg" class="card-img-top" >
 		<div class="card-body">
