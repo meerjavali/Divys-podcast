@@ -1,6 +1,7 @@
 <?php
 ?>
 
+
 <html>
 	<title>
 	Divys podcasts
@@ -16,14 +17,25 @@
 	</head>
 	
 <body>
+<center>
+    <div class="container">
+	<br><br>
 	<div class="card" style="width: 18rem;">
 		<img src="halfgf.jpg" class="card-img-top" >
 		<div class="card-body">
 			<h5 class="card-title">Card title</h5>
 			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			<a href="#" class="btn btn-primary">Go somewhere</a>
+			<a href="#" class="btn btn-primary">Go somewhere</a>			
 		</div>
 	</div>
+	<audio controls autoplay>
+				<source src="mptc.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+	</audio>
+	<br>
+	<br>
+	</div>
+	</center>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
