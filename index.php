@@ -2,6 +2,7 @@
 ?>
 
 
+<!DOCTYPE html>
 <html>
 	<title>
 	Divys podcasts
@@ -17,21 +18,21 @@
 	</head>
 	
 <body>
+<h2><i>Suno Divys Podcasts dilse...</i></h2>
 <center>
-    <h2><i>Suno Divys podcasts dilse...<i></h2>
     <div class="container">
 	<div class="card" style="width: 18rem;">
 		<img src="halfgf.jpg" class="card-img-top" >
 		<div class="card-body">
-			<h5 class="card-title">Card title</h5>
-			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			<a href="#" class="btn btn-primary">Go somewhere</a>			
+			<h5 class="card-title">half girlfriend</h5>
+			<p class="card-text">main phir bi tumko chahunga track</p>		
 		</div>
 	</div>
-	<audio controls autoplay>
+
+	<audio controls  autoplay>
 		<source src= "mptc.ogg" type="audio/ogg">
 		<source src="mptc.mp3" type="audio/mpeg">
-		Your browser does not support the audio element.
+				Your browser does not support the audio element.
 	</audio>
 	<br>
 	<br>
