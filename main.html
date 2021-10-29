@@ -25,7 +25,13 @@
 			<a href="#" class="btn btn-primary">Go somewhere</a>			
 		</div>
 	</div>
- 	<audio controls autoplay="true">
+	    <script>
+		    document.querySelector('video').addEventListener('play', () => {
+  			alert('Audio is playing!!!')})
+		    const playing = () => {
+  			alert('Audio is playing!!!')}
+	    </script>
+ 	<audio controls autoplay onplay="playing()">
 		
 		<source src="mptc.ogg" type="audio/ogg" codecs=vorbis">
 		<source src="mptc.mp3" type="audio/mpeg">
